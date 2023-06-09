@@ -1,5 +1,7 @@
-import Navbar from './Navbar.js'
-import Home from './Home.js'
+import Navbar from './Navbar.js';
+import Home from './Home.js';
+import Projects from './Projects.js';
+import Tech from './Tech.js';
 import './App.css';
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Home/>
+      <Projects/>
+      <Tech/>
     </div>
   );
 }

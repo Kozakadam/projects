@@ -11,13 +11,24 @@ function Home(){
                     Stay tuned!
                 </p>
                 <button id='projectButton'>Projects</button>
-                <button id="aboutMeButton">About Me</button>
+                <button id="aboutMeButtonContainer">
+                    <span class="material-symbols-outlined">trending_flat</span>
+                    <span id="aboutMeButton">About Me</span>
+                </button>
             </div>
-            <div>
-                <div class="circle circle1"></div>
-                <div class="circle circle2"></div>
-                <div class="circle circle3"></div>
-                <div class="circle circle4"></div>
+            <div id="spinnerContainer">
+                <div id="spinner1">
+                    <div class="circle circle1"></div>
+                </div>
+                <div id="spinner2">
+                    <div class="circle circle2"></div>
+                </div>
+                <div id="spinner3">
+                    <div class="circle circle3"></div>
+                </div>
+                <div id="spinner4">
+                    <div class="circle circle4"></div>
+                </div>
             </div>
         </div>
    )
