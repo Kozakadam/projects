@@ -3,9 +3,9 @@ function Navbar(){
         <div>
             <ul id="navbar">
                 <li>Projects</li>
-                <li>Technologies</li>
+                <li id="navTechnologies">Technologies</li>
                 <li>Design</li>
-                <li>About Me</li>
+                <li id="navAboutMe">About Me</li>
             </ul>
         </div>
     )

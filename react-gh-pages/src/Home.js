@@ -12,19 +12,19 @@ function Home(){
                 </p>
                 <button id='projectButton'>Projects</button>
                 <button id="aboutMeButtonContainer">
-                    <span class="material-symbols-outlined">trending_flat</span>
+                    <span class="material-symbols-outlined symbol1">trending_flat</span>
                     <span id="aboutMeButton">About Me</span>
                 </button>
             </div>
             <div id="spinnerContainer">
-                <div id="spinner1">
-                    <div class="circle circle1"></div>
+                <div id="spinner3">
+                    <div class="circle circle3"></div>
                 </div>
                 <div id="spinner2">
                     <div class="circle circle2"></div>
                 </div>
-                <div id="spinner3">
-                    <div class="circle circle3"></div>
+                <div id="spinner1">
+                    <div class="circle circle1"></div>
                 </div>
                 <div id="spinner4">
                     <div class="circle circle4"></div>
