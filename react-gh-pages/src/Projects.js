@@ -27,6 +27,9 @@ function Projects(){
                     <div class="readMore">Read more..</div>
                 </div>
             </div>
+            <div id="currentProjectDisplay">
+
+            </div>
         </div>
     )
 }

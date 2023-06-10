@@ -129,7 +129,7 @@ body{
   color: white;
   font-size: 40px;
   position: relative;
-  top: -400px;
+  top: -340px;
   left: 312px;
   border: 1px solid white;
   background-color: rgb(27, 27, 27);
@@ -149,7 +149,7 @@ body{
   color: white;
   font-size: 40px;
   position: relative;
-  top: -400px;
+  top: -340px;
   left: 312px;
   border: 1px solid white;
   background-color: rgb(27, 27, 27);
@@ -164,6 +164,14 @@ body{
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+.techCounter{
+  position: relative;
+  top: -348px;
+  left: 270px;
+  font-size: 40px;
+  color: rgb(156, 156, 156);
 }
 
 .symbol2:hover{
@@ -219,13 +227,13 @@ body{
 }
 
 #techContainer{
-  height: 100vh;
+  height: 80vh;
   background: linear-gradient(135deg, #e3e2ff, rgb(240, 207, 251));
 }
 
 #techTitle{
   position: relative;
-  top: -420px;
+  top: -350px;
   left: 110px;
   float: left;
   font-size: 50px;
@@ -235,12 +243,39 @@ body{
 }
 
 #techList{
+  display: grid;
+  grid-template-columns: 300px auto;
   position: relative;
   margin: 0 auto;
-  top: -320px;
+  top: -250px;
   height: 500px;
   background-color: white;
   width: 85%;
+}
+
+.techSubTitle{
+  margin: 30px;
+  margin-top: 120px;
+  text-align: left;
+  font-size: 42px;
+  font-family: 'Poppins';
+}
+
+.techDetails{
+  margin-left: 30px;
+  margin-right: 80px;
+  font-size: 26px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.techIcon{
+  /* margin: 0 auto; */
+  margin-top: 150px;
+  margin-left: 80px;
+  height: 200px;
+  width: 200px;
+  background-color: grey;
 }
 
 .title{
@@ -254,6 +289,12 @@ body{
   font-size: 24px;
   font-family: "Overpass";
   font-weight: bold;
+}
+
+.techFooter{
+  position: relative;
+  height: 250px;
+  background-color: rgb(27, 27, 27);
 }
 
 /* #projectTitle1{
@@ -419,7 +460,7 @@ body{
   padding-right: 80px;
   padding-top: 80px;
   /* width: 100%; */
-  height: 145vh;
+  height: 100vh;
   /* background: linear-gradient(135deg, #e3e2ff, rgb(240, 207, 251)); */
   background-color: rgb(27, 27, 27);
   /* background-color: rgb(170, 26, 26); */
@@ -441,6 +482,15 @@ body{
   scale: 1.1;
   transition: scale 300ms ease-in-out;
   background-color: rgb(0, 0, 0);
+}
+
+#currentProjectDisplay{
+  position: relative;
+  top: -480px;
+  margin: 0 auto;
+  width: 88%;
+  height: 350px;
+  border: 2px solid grey;
 }
 
 @keyframes rotate {
