@@ -1,33 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Overpass+Mono&family=Overpass:wght@300&family=Pathway+Gothic+One&family=Poppins:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 body{
-  width: 100%;
-  height: 100%;
+  /* width: 100vw; */
+  /* height: 100vh; */
   background: linear-gradient(to left, #270b69, #5f5cb1, #390a51);
   /* background-color: #531274; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 5.2vw;
   width: 70vw;
   /* height: 110vh; */
   text-align: center;
   background-color: rgb(27, 27, 27);
 }
 
+.link {
+  color: rgb(203, 203, 203);
+  font-style: italic;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 #navbar{
   background-color: rgb(27, 27, 27);
-  padding-top: 30px;
-  margin-left: 50px;
+  padding-top: 3vh;
+  margin-left: 2.6vw;
 }
 
 #navbar > li{
-  float: left;
+  /* float: left; */
   display: inline;
   color: white;
-  padding: 10px;
-  margin-right: 50px;
+  padding: 1vh;
+  margin-right: 2.6vw;
   font-family: 'Montserrat', 'sans-serif';
   letter-spacing: 1px;
   font-size: 20px;
@@ -43,39 +62,47 @@ body{
   /* border-bottom-width: 100px; */
 }
 
-#navTechnologies{
-  margin-left: 510px;
+#navTechnologies, #navDesign, #navAboutMe{
+  /* margin-left: 26.5vw; */
+  float: right;
 }
+
+#navProjects{
+  float:left;
+}
+
 
 #home{
   display: grid;
-  grid-template-columns: 42% auto;
+  grid-template-columns: 30vw auto;
   /* width:50%; */
-  margin-top: 180px;
-  margin-left: 100px;
+  margin-top: 20vh;
+  margin-left: 5.2vw;
   margin-bottom: 0px;
   color:white;
-  font-size: 70px;
+  font-size: 3.5vw;
   font-family: 'Poppins', 'sans-serif';
   text-align: left;
   line-height: 130%;
+  height: 45vh;
 }
 
 .details{
-  font-size: 16px;
+  font-size: 1vw;
   font-family: 'Montserrat', 'sans-serif';
-  margin-top: 50px;
-  margin-left: 50px;
-  width: 70%;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  margin-left: 1vw;
+  width: 80%;
   line-height: 1.8;
 }
 
 #projectButton{
   color: white;
   padding: 15px;
-  margin-left: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-left: 2.6vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
   font-size: 20px;
   font-family: 'Poppins', 'sans-serif';
   font-weight: bold;
@@ -129,8 +156,8 @@ body{
   color: white;
   font-size: 40px;
   position: relative;
-  top: -340px;
-  left: 312px;
+  top: -35vh;
+  left: 16.25vw;
   border: 1px solid white;
   background-color: rgb(27, 27, 27);
   padding: 3px;
@@ -149,8 +176,8 @@ body{
   color: white;
   font-size: 40px;
   position: relative;
-  top: -340px;
-  left: 312px;
+  top: -35vh;
+  left: 16.25vw;
   border: 1px solid white;
   background-color: rgb(27, 27, 27);
   padding-top: 3px;
@@ -168,8 +195,8 @@ body{
 
 .techCounter{
   position: relative;
-  top: -348px;
-  left: 270px;
+  top: -35.87vh;
+  left: 14vw;
   font-size: 40px;
   color: rgb(156, 156, 156);
 }
@@ -211,7 +238,7 @@ body{
   display: inline; */
   background-color: rgb(27, 27, 27);
   border: none;
-  margin-left: 45px;
+  margin-left: 2.35vw;
   /* margin-top: 50px; */
   /* height: 30px;
   width: 200px; */
@@ -233,8 +260,8 @@ body{
 
 #techTitle{
   position: relative;
-  top: -350px;
-  left: 110px;
+  top: -36vh;
+  left: 5.7vw;
   float: left;
   font-size: 50px;
   color: white;
@@ -247,23 +274,23 @@ body{
   grid-template-columns: 300px auto;
   position: relative;
   margin: 0 auto;
-  top: -250px;
-  height: 500px;
+  top: -25.7vh;
+  height: 51.5vh;
   background-color: white;
   width: 85%;
 }
 
 .techSubTitle{
   margin: 30px;
-  margin-top: 120px;
+  margin-top: 12vh;
   text-align: left;
   font-size: 42px;
   font-family: 'Poppins';
 }
 
 .techDetails{
-  margin-left: 30px;
-  margin-right: 80px;
+  margin-left: 1.5vw;
+  margin-right: 4vw;
   font-size: 26px;
   text-align: left;
   line-height: 1.6;
@@ -271,21 +298,24 @@ body{
 
 .techIcon{
   /* margin: 0 auto; */
-  margin-top: 150px;
-  margin-left: 80px;
-  height: 200px;
-  width: 200px;
-  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15.5vh;
+  margin-left: 4vw;
+  height: 20vh;
+  width: 10vw;
+  /* background-color: grey; */
 }
 
 .title{
   color:white;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 2vh;
   width: fit-content;
   padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1vw;
+  padding-right: 1vw;
   font-size: 24px;
   font-family: "Overpass";
   font-weight: bold;
@@ -293,8 +323,10 @@ body{
 
 .techFooter{
   position: relative;
-  height: 250px;
+  height: 25vh;
   background-color: rgb(27, 27, 27);
+  color:white;
+  font-size: 30px;
 }
 
 /* #projectTitle1{
@@ -316,15 +348,39 @@ body{
 .projectImg{
   margin: 0 auto;
   margin-top: 10px;
-  width: 200px;
-  height: 150px;
+  width: 10vw;
+  height: 15vh;
   background-color: rgb(73, 73, 73);
+}
+
+.techIconImg{
+  height: auto;
+  width: 10vw;
+  vertical-align: middle;
+}
+
+.projectImagw{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: 15vw;
+}
+
+#pokemonImg{
+  margin: 0 auto;
+  max-height: 14vw;
+  height: 14vw;
+  width: 14vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('./images/pokemon.png');
 }
 
 .paragraph{
   color: white;
   font-family: "Poppins";
-  margin: 20px;
+  margin: 1vw;
   text-align: left;
 }
 
@@ -335,7 +391,7 @@ body{
   /* padding: 15px; */
   /* padding-left: 30px; */
   /* padding-right: 30px; */
-  margin-left: 20px;
+  margin-left: 1vw;
   font-size: 14px;
   letter-spacing: 2px;
   font-family: 'Poppins', 'sans-serif';
@@ -346,8 +402,8 @@ body{
 
 .circle{
   background-color: #2c073f;
-  height: 50px;
-  width: 50px;
+  height: 5vh;
+  width: 2.5vw;
   border-radius: 100px;
   filter: blur(20px)
 }
@@ -356,10 +412,10 @@ body{
   position: absolute;
   /* margin: 10px; */
   background-color: #570d79;
-  left: 370px;
-  top: 100px;
-  height: 70px;
-  width: 70px;
+  left: 19.2vw;
+  top: 10vh;
+  height: 3.5vw;
+  width: 3.5vw;
   scale: 1;
   filter: blur(30px);
   animation: scaleup 5s infinite, circle1move 15s infinite ease-in-out;
@@ -371,10 +427,10 @@ body{
 .circle2{
   position: absolute;
   /* margin: 0px; */
-  top: 180px;
-  left: 90px;
-  height: 80px;
-  width: 80px;
+  top: 18vh;
+  left: 4.5vw;
+  height: 4vw;
+  width: 4vw;
   background-color: #423b8b;
   filter: blur(30px);
   animation: scaleup 5s infinite, circle2move 15s infinite ease-in-out;
@@ -387,10 +443,10 @@ body{
 .circle3{
   position: absolute;
   /* margin: 0px; */
-  left: 300px;
-  top: 300px;
-  height: 150px;
-  width: 150px;
+  left: 15vw;
+  top: 30vh;
+  height: 7.5vw;
+  width: 7.5vw;
   background-color: #232155;
   filter: blur(30px);
   animation: scaleup 5s infinite, circle3move 15s infinite ease-in-out;
@@ -401,10 +457,10 @@ body{
 }
 .circle4{
   position: absolute;
-  left: 120px;
-  top: 400px;
-  height: 100px;
-  width: 100px;
+  left: 6vw;
+  top: 40vh;
+  height: 5vw;
+  width: 5vw;
   background-color: #542a6b;
   /* opacity: 0.7; */
   filter: blur(30px);
@@ -417,8 +473,8 @@ body{
 
 #spinner1, #spinner2, #spinner3, #spinner4{
   position: absolute;
-  height: 500px;
-  width: 620px;
+  height: 50vh;
+  width: 32vw;
   scale: 1;
   /* animation: scaleUp 5s infinite; */
 }
@@ -453,12 +509,12 @@ body{
 
 #projectsContainer{
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 30px;
-  margin-top: 230px;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 80px;
+  grid-template-columns: 16vw 16vw 16vw 16vw;
+  gap: 1vw;
+  margin-top: 23vh;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 8vh;
   /* width: 100%; */
   height: 100vh;
   /* background: linear-gradient(135deg, #e3e2ff, rgb(240, 207, 251)); */
@@ -467,14 +523,26 @@ body{
   border-top: 2px solid grey;
 }
 
+/* #project1:hover ~ #project2, #project1:hover ~ #project3, #project1:hover ~ #project4{
+  filter: blur(2px);
+  transition: 300ms;
+}
+
+#project2:hover + #project1, #project2:hover ~ #project3, #project2:hover ~ #project4{
+  filter: blur(2px);
+  transition: 300ms;
+} */
+
+
 #project1, #project2, #project3, #project4{
   position: relative;
-  height: 400px;
+  height: 50vh;
   width: auto;
   background-color: rgb(27, 27, 27);;
   /* border: 1px solid white; */
   transition: scale 300ms ease-in-out;
   border: 1px solid grey;
+  transition: 300ms;
 }
 
 #project1:hover, #project2:hover, #project3:hover, #project4:hover{
@@ -486,10 +554,10 @@ body{
 
 #currentProjectDisplay{
   position: relative;
-  top: -480px;
+  top: -45vh;
   margin: 0 auto;
   width: 88%;
-  height: 350px;
+  height: 36vh;
   border: 2px solid grey;
 }
 
