@@ -17,13 +17,13 @@ function Tech({tech}){
             <div id="techTitle" ref={tech}>
                 Technologies
             </div>
-            <span className="techCounter">{index + 1}/6</span>
-            <span className="material-symbols-outlined symbol3" onClick={techBackwards}>arrow_back_ios</span>
             <span className="material-symbols-outlined symbol2" onClick={techForwards}>arrow_forward_ios</span>
+            <span className="material-symbols-outlined symbol3" onClick={techBackwards}>arrow_back_ios</span>
+            <span className="techCounter">{index + 1}/6</span>
             <TechTemplate index={index}/>
             <div className="techFooter">
-                {`width: ${window.innerWidth}`}
-                {`height: ${window.innerHeight}`}
+                {/* {`width: ${window.innerWidth}`}
+                {`height: ${window.innerHeight}`} */}
             </div>
         </div>
     )

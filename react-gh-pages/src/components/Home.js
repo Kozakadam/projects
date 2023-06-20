@@ -1,7 +1,9 @@
-function Home({projects}){
+function Home({projects, aboutMe}){
     function toProjects(){
-        console.log(projects);
         projects.current.scrollIntoView('align');
+    }
+    function toAboutMe(){
+        aboutMe.current.scrollIntoView('align');
     }
    return(
         <div id="home">
@@ -10,13 +12,13 @@ function Home({projects}){
                     My personal projects!
                 </div>
                 <p className="details">
-                    You can find here the projects I made during my studies at Codecool!
+                    You can find here my projects I deemed worthy of sharing!
                     At the moment it is only a placeholder!
                 </p>
                 <button id='projectButton' onClick={toProjects}>Projects</button>
                 <button id="aboutMeButtonContainer">
                     <span className="material-symbols-outlined symbol1">trending_flat</span>
-                    <span id="aboutMeButton">About Me</span>
+                    <span id="aboutMeButton" onClick={toAboutMe}>About Me</span>
                 </button>
             </div>
             <div id="spinnerContainer">
