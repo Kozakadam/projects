@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/projects/static/css/main.81d51958.css",
-    "main.js": "/projects/static/js/main.28fd513c.js",
+    "main.css": "/projects/static/css/main.00187b80.css",
+    "main.js": "/projects/static/js/main.f0bface7.js",
     "static/js/787.50b188d9.chunk.js": "/projects/static/js/787.50b188d9.chunk.js",
     "static/media/pokemon.png": "/projects/static/media/pokemon.17d3aec0bd24f1f52431.png",
     "static/media/mongo.png": "/projects/static/media/mongo.6170bacefd8a1f69ca74.png",
     "static/media/htmlcss.png": "/projects/static/media/htmlcss.ac2e06c81492b3658191.png",
     "static/media/express.png": "/projects/static/media/express.915b89629a5fefdb6ca0.png",
+    "static/media/java.png": "/projects/static/media/java.fdabd4e11f1235e4e8e0.png",
+    "static/media/stackoverflow.png": "/projects/static/media/stackoverflow.7d9919fc7be20fd3a515.png",
     "static/media/react.png": "/projects/static/media/react.20adfb35ae6a6e5817bf.png",
     "static/media/node.png": "/projects/static/media/node.e71346fe0fec16ec5f6e.png",
     "static/media/profile.png": "/projects/static/media/profile.2fd7772dc411a2436332.png",
+    "static/media/quiz.png": "/projects/static/media/quiz.18c9005148a81d7685b9.png",
     "static/media/js.png": "/projects/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/projects/index.html",
-    "main.81d51958.css.map": "/projects/static/css/main.81d51958.css.map",
-    "main.28fd513c.js.map": "/projects/static/js/main.28fd513c.js.map",
+    "main.00187b80.css.map": "/projects/static/css/main.00187b80.css.map",
+    "main.f0bface7.js.map": "/projects/static/js/main.f0bface7.js.map",
     "787.50b188d9.chunk.js.map": "/projects/static/js/787.50b188d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81d51958.css",
-    "static/js/main.28fd513c.js"
+    "static/css/main.00187b80.css",
+    "static/js/main.f0bface7.js"
   ]
 }
