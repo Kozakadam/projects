@@ -4,11 +4,11 @@ import { useState, useEffect } from 'react';
 function Tech({tech}){
     let [ index, setIndex] = useState(0);
     function techForwards(){
-        if (index === 5) setIndex(() => 0);
+        if (index === 6) setIndex(() => 0);
         else setIndex(() => index + 1);
     }
     function techBackwards(){
-        if (index === 0) setIndex(() => 5);
+        if (index === 0) setIndex(() => 6);
         else setIndex(() => index - 1);
     }
 
@@ -19,7 +19,7 @@ function Tech({tech}){
             </div>
             <span className="material-symbols-outlined symbol2" onClick={techForwards}>arrow_forward_ios</span>
             <span className="material-symbols-outlined symbol3" onClick={techBackwards}>arrow_back_ios</span>
-            <span className="techCounter">{index + 1}/6</span>
+            <span className="techCounter">{index + 1}/7</span>
             <TechTemplate index={index}/>
             <div className="techFooter">
                 {/* {`width: ${window.innerWidth}`}

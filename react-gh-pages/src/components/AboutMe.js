@@ -5,10 +5,10 @@ function AboutMe({aboutMe}){
         <div className='aboutMeContainer' ref={aboutMe}>
             <img className='portraitImg' src={profile} alt='profile'></img>
             <div className='selfDescription'>
-                <div className='nameTitle'>Name</div>
-                <div className='selfDetails'>Short description. I like dogs nad cats. And I want to check how this text wraps.</div>
-                <div>contact1@contact.com</div>
-                <div>contact2</div>
+                <div className='nameTitle'>Kozák Ádám Róbert</div>
+                <div className='selfDetails'>Junior Full Stack Developer</div>
+                <div>Contact:</div>
+                <div>kar.adam.robert6@gmail.com</div>
             </div>
         </div>
     )

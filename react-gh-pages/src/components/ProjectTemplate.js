@@ -1,15 +1,19 @@
-function ProjectTemplate({ title, img, idx }){
-    const projectId = `project${idx}`;
-    const projectTitleId = `projectTitle${idx}`
-    return(
-    
-    <a href='https://kozakadam.github.io/pokemon/'><div id={projectId}>
-        <div className="title" id={projectTitleId}>{title}</div>
-        <div className="projectImage"><div id='pokemonImg'></div></div>
-        <div className="paragraph">Basic pokeom fighting app, data is from PokeApi.</div>
-        <div className="readMore"> Visit the site..</div>
-    </div></a>
-    )
+function ProjectTemplate({title, img, idx, description, visitable}) {
+  const projectId = `project${idx}`;
+  const projectTitleId = `projectTitle${idx}`
+  return (
+
+    <a href='https://kozakadam.github.io/pokemon/'>
+      <div id={projectId}>
+        <div className="title">{title}</div>
+        <div className="projectImage">
+          <img src={img} className="projectImg"></img>
+        </div>
+        <div className="paragraph">{description}</div>
+        <div className="readMore"> {visitable ? "Visit the site..." : "Not yet deployed..."}</div>
+      </div>
+    </a>
+  )
 }
 
 export default ProjectTemplate;
