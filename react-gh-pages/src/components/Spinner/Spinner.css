@@ -1,0 +1,107 @@
+
+.circle{
+    background-color: #2c073f;
+    height: 5vh;
+    width: 2.5vw;
+    border-radius: 100px;
+    filter: blur(20px)
+}
+
+.circle1{
+    position: absolute;
+    /* margin: 10px; */
+    background-color: #570d79;
+    left: 19.2vw;
+    top: 10vh;
+    height: 3.5vw;
+    width: 3.5vw;
+    scale: 1;
+    filter: blur(30px);
+    animation: scaleup 5s infinite, circle1move 15s infinite ease-in-out;
+    /* animation: scaleUp 5s infinite; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+.circle2{
+    position: absolute;
+    /* margin: 0px; */
+    top: 18vh;
+    left: 4.5vw;
+    height: 4vw;
+    width: 4vw;
+    background-color: #423b8b;
+    filter: blur(30px);
+    animation: scaleup 5s infinite, circle2move 15s infinite ease-in-out;
+    /* animation: scaleup 5s infinite; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-play-state: running; */
+}
+
+.circle3{
+    position: absolute;
+    /* margin: 0px; */
+    left: 15vw;
+    top: 30vh;
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #232155;
+    filter: blur(30px);
+    animation: scaleup 5s infinite, circle3move 15s infinite ease-in-out;
+    /* animation: scaleup 5s infinite; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+.circle4{
+    position: absolute;
+    left: 6vw;
+    top: 40vh;
+    height: 5vw;
+    width: 5vw;
+    background-color: #542a6b;
+    /* opacity: 0.7; */
+    filter: blur(30px);
+    animation: scaleup 5s infinite, circle4move 15s infinite ease-in-out;
+    /* animation: scaleup 5s infinite; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#spinner1, #spinner2, #spinner3, #spinner4{
+    position: absolute;
+    height: 50vh;
+    width: 32vw;
+    scale: 1;
+    /* animation: scaleUp 5s infinite; */
+}
+
+#spinner1{
+    animation: rotate 4s infinite, scaleUp 10s infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#spinner2{
+    animation: rotate 7s infinite, scaleUp 10s infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#spinner3{
+    animation: rotate 6s infinite, scaleUp 10s infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#spinner4{
+    animation: rotate 5s infinite, scaleUp 10s infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}

@@ -1,19 +1,18 @@
 function Navbar({ projects, techs, aboutMe }){
     function toProjects(){
-        projects.current.scrollIntoView('align');
+        projects.current.scrollIntoView();
     }
     function toTechs(){
-        techs.current.scrollIntoView('align');
+        techs.current.scrollIntoView();
     }
     function toAboutMe(){
-        aboutMe.current.scrollIntoView('align');
+        aboutMe.current.scrollIntoView();
     }
     return(
         <div>
             <ul id="navbar">
                 <li id="navProjects" onClick={toProjects}>Projects</li>
                 <li id="navTechnologies" onClick={toTechs}>Technologies</li>
-                {/* <li id="navDesign">Design</li> */}
                 <li id="navAboutMe" onClick={toAboutMe}>About Me</li>
             </ul>
         </div>

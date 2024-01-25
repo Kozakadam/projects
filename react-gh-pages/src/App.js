@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar.js';
 import Home from './components/Home.js';
-import Projects from './components/Projects.js';
-import Tech from './components/Tech.js';
+import Projects from './components/ProjectComponents/Projects.js';
+import Tech from './components/TechComponents/Tech.js';
 import AboutMe from './components/AboutMe.js';
 import './App.css';
 import { useRef } from 'react';
